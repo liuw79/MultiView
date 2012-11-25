@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
 
@@ -18,10 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //add by me:
+//    FirstViewController *first = [[FirstViewController alloc] initWithNibName:@"FirstView" bundle:nil];
+//    self.firstController = first;
+    SecondViewController *second = [[SecondViewController alloc] init];
+    self.secondController = second;
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //add by me:
+//    self.window.rootViewController = self.firstController;
+//    [first release];
+//    first = nil;
+    self.window.rootViewController = self.secondController;
+    
     return YES;
 }
 
