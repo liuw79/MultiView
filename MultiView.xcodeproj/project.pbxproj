@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		012745DB1661DED900850807 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012745DA1661DED900850807 /* SecondView.xib */; };
 		012745DF1661DF6200850807 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012745DE1661DF6200850807 /* SecondViewController.m */; };
+		01A1C7A616646EA700F6166C /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A1C7A416646EA600F6166C /* SwitchViewController.m */; };
+		01A1C7A716646EA700F6166C /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A1C7A516646EA700F6166C /* SwitchViewController.xib */; };
 		01F6301A1661BE520026C334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F630191661BE520026C334 /* UIKit.framework */; };
 		01F6301C1661BE520026C334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F6301B1661BE520026C334 /* Foundation.framework */; };
 		01F6301E1661BE520026C334 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F6301D1661BE520026C334 /* CoreGraphics.framework */; };
@@ -27,6 +29,9 @@
 		012745DA1661DED900850807 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SecondView.xib; path = ../SecondView.xib; sourceTree = "<group>"; };
 		012745DD1661DF6200850807 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		012745DE1661DF6200850807 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		01A1C7A316646EA600F6166C /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		01A1C7A416646EA600F6166C /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		01A1C7A516646EA700F6166C /* SwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
 		01F630151661BE520026C334 /* MultiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F630191661BE520026C334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01F6301B1661BE520026C334 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +105,9 @@
 				01F630391661BF760026C334 /* FirstViewController.m */,
 				01F6303F1661CE500026C334 /* TouchesView.h */,
 				01F630401661CE500026C334 /* TouchesView.m */,
+				01A1C7A316646EA600F6166C /* SwitchViewController.h */,
+				01A1C7A416646EA600F6166C /* SwitchViewController.m */,
+				01A1C7A516646EA700F6166C /* SwitchViewController.xib */,
 				012745DD1661DF6200850807 /* SecondViewController.h */,
 				012745DE1661DF6200850807 /* SecondViewController.m */,
 			);
@@ -177,6 +185,7 @@
 				01F630301661BE520026C334 /* Default-568h@2x.png in Resources */,
 				01F630371661BE7D0026C334 /* FirstView.xib in Resources */,
 				012745DB1661DED900850807 /* SecondView.xib in Resources */,
+				01A1C7A716646EA700F6166C /* SwitchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +201,7 @@
 				01F6303A1661BF760026C334 /* FirstViewController.m in Sources */,
 				01F630411661CE500026C334 /* TouchesView.m in Sources */,
 				012745DF1661DF6200850807 /* SecondViewController.m in Sources */,
+				01A1C7A616646EA700F6166C /* SwitchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,18 +28,14 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     self.btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [self.btn setFrame:CGRectMake(150, 403, 72, 37)];
+    [self.btn setFrame:CGRectMake(150, 250, 72, 37)];
     [self.btn setTitle:@"移动" forState:UIControlStateNormal];
     [self.btn addTarget:self action:@selector(moveAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.btn];
     
-    
     TouchesView *tv = [[TouchesView alloc] initWithFrame:self.view.frame];
     [self.view insertSubview:tv atIndex:0];
     [tv release];
-    
-    
-    
 }
 
 - (void)addAction:(id)sender

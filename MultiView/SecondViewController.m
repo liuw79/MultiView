@@ -36,7 +36,7 @@
     UIView *view = [[UIView alloc] init];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [btn setFrame:CGRectMake(150, 200, 72, 37)];
+    [btn setFrame:CGRectMake(150, 200, 150, 37)];
     [btn setTitle:@"New Button" forState:UIControlStateNormal];
     
     self.view = view;
